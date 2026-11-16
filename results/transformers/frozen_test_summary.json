@@ -1,0 +1,72 @@
+{
+  "protocol": "5710_unique_builds_within_project_chronological_TEST_ONCE",
+  "models": [
+    "Full DistilBERT",
+    "Fixed LoRA-DistilBERT",
+    "Optuna-LoRA-DistilBERT"
+  ],
+  "features": [
+    "branch",
+    "is_pr",
+    "num_commits"
+  ],
+  "metadata_not_CI_execution_logs": true,
+  "historical_feature_availability_confirmed": false,
+  "no_retraining_or_retuning": true,
+  "test_builds": 1144,
+  "always_failure_f1": 0.43394934976043803,
+  "test_failure_prevalence": 0.2770979020979021,
+  "metrics": [
+    {
+      "threshold_frozen_on_validation": 0.49,
+      "accuracy": 0.5393356643356644,
+      "precision": 0.31382978723404253,
+      "recall": 0.5583596214511041,
+      "f1": 0.4018161180476731,
+      "average_precision": 0.3425195745479701,
+      "roc_auc": 0.5411868369958689,
+      "failure_prevalence": 0.2770979020979021,
+      "predicted_failure_fraction": 0.493006993006993,
+      "tn": 440,
+      "fp": 387,
+      "fn": 140,
+      "tp": 177,
+      "model": "Full DistilBERT",
+      "test_builds": 1144
+    },
+    {
+      "threshold_frozen_on_validation": 0.35,
+      "accuracy": 0.44842657342657344,
+      "precision": 0.2971576227390181,
+      "recall": 0.7255520504731862,
+      "f1": 0.4216315307057745,
+      "average_precision": 0.30131463928615276,
+      "roc_auc": 0.5372407584710043,
+      "failure_prevalence": 0.2770979020979021,
+      "predicted_failure_fraction": 0.6765734265734266,
+      "tn": 283,
+      "fp": 544,
+      "fn": 87,
+      "tp": 230,
+      "model": "Fixed LoRA-DistilBERT",
+      "test_builds": 1144
+    },
+    {
+      "threshold_frozen_on_validation": 0.47,
+      "accuracy": 0.5305944055944056,
+      "precision": 0.30357142857142855,
+      "recall": 0.5362776025236593,
+      "f1": 0.38768529076396807,
+      "average_precision": 0.3005233767738459,
+      "roc_auc": 0.5378033941234136,
+      "failure_prevalence": 0.2770979020979021,
+      "predicted_failure_fraction": 0.48951048951048953,
+      "tn": 437,
+      "fp": 390,
+      "fn": 147,
+      "tp": 170,
+      "model": "Optuna-LoRA-DistilBERT",
+      "test_builds": 1144
+    }
+  ]
+}

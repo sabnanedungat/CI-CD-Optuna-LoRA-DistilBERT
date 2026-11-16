@@ -1,0 +1,29 @@
+{
+  "model": "Logistic Regression",
+  "protocol": "5710_unique_builds_within_project_chronological",
+  "features": [
+    "branch",
+    "is_pr",
+    "num_commits"
+  ],
+  "feature_timing_proven": false,
+  "threshold_frozen_on_validation": 0.54,
+  "train_builds": 3651,
+  "validation_builds": 915,
+  "test_builds": 1144,
+  "validation_ap_reproduced": 0.4423177073472836,
+  "validation_f1_at_frozen_threshold_reproduced": 0.46474358974358976,
+  "test_failure_prevalence": 0.2770979020979021,
+  "test_accuracy": 0.5673076923076923,
+  "test_precision": 0.31223628691983124,
+  "test_recall": 0.4668769716088328,
+  "test_f1": 0.37420986093552466,
+  "test_ap": 0.321228459451843,
+  "test_roc_auc": 0.5370710141555316,
+  "test_predicted_failure_fraction": 0.4143356643356643,
+  "tn": 501,
+  "fp": 326,
+  "fn": 169,
+  "tp": 148,
+  "always_failure_test_f1": 0.43394934976043803
+}

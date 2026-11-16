@@ -1,0 +1,13 @@
+comparison,metric,observed_difference,CI_lower,CI_upper
+Logistic Regression minus always-failure,F1,-0.0597,-0.1663,0.0205
+Logistic Regression AP minus test failure prevalence,AP - prevalence,0.0441,-0.0147,0.1289
+Full DistilBERT minus always-failure,F1,-0.0321,-0.1125,0.039
+Full DistilBERT AP minus test failure prevalence,AP - prevalence,0.0654,-0.0065,0.1568
+Fixed LoRA minus always-failure,F1,-0.0123,-0.0655,0.0415
+Fixed LoRA AP minus test failure prevalence,AP - prevalence,0.0242,-0.0291,0.1178
+Optuna-LoRA minus always-failure,F1,-0.0463,-0.1413,0.0267
+Optuna-LoRA AP minus test failure prevalence,AP - prevalence,0.0234,-0.0295,0.1092
+Fixed LoRA minus Full DistilBERT,F1,0.0198,-0.0178,0.0673
+Full DistilBERT minus Logistic Regression,AP,0.0213,-0.0164,0.0538
+Optuna-LoRA minus Fixed LoRA,F1,-0.0339,-0.0925,0.0038
+Optuna-LoRA minus Fixed LoRA,AP,-0.0008,-0.0146,0.0043
